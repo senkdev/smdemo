@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.1.4"
+django-ckeditor = "==5.8.0"
+django-cleanup = "==4.0.0"
+django-crispy-forms = "==1.8.1"
+django-js-asset = "==1.2.2"
+djangorestframework = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
